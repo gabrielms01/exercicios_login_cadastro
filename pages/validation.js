@@ -2,9 +2,9 @@ document.querySelector("form").addEventListener("submit", event => {
     console.log("efetuando login...")
 
     let email = document.getElementById("email");
-    let senha = document.getElementById("senha");
+    let password = document.getElementById("password");
 
-    if (email.value == "tlopes@gmail.com" && senha.value == "1234") {
+    if (email.value == "tlopes@gmail.com" && password.value == "123456") {
         var xhttp = new XMLHttpRequest();
         xhttp.open("POST", "http://52.91.139.190/fsapi/users/login", true);
         xhttp.setRequestHeader("Content-type", "application/json");
@@ -18,7 +18,7 @@ document.querySelector("form").addEventListener("submit", event => {
        
         xhttp.send(JSON.stringify({
             "email": email.value,
-            "senha": senha.value
+            "password": password.value
         }));
         
        event.preventDefault()

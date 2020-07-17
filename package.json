@@ -1,0 +1,22 @@
+{
+  "name": "exercicio-4-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielms01/exercicios_login_cadastro.git"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielms01/exercicios_login_cadastro/issues"
+  },
+  "homepage": "https://github.com/gabrielms01/exercicios_login_cadastro#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
