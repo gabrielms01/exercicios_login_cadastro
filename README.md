@@ -20,5 +20,7 @@ NPM Live Server
 Npm way
 
 cd exercicios_login_cadastro
+
 npm install
+
 live-server
