@@ -11,8 +11,8 @@ Date: 17/07/2020
 ### Prerequisite
 
 You'll need:
-# Node.js, version 10 or higher
-# NPM Live Server
+Node.js, version 10 or higher
+NPM Live Server
 
 ### Installing
 Npm way
