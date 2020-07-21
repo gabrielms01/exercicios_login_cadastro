@@ -17,7 +17,6 @@ Node.js, version 10 or higher
 NPM Live Server
 
 ### Installing
-Npm way
 
 cd exercicios_login_cadastro
 
